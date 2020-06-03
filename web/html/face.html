@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>project</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+    </head>
+    <body >
+        <script src="../js/script.js"></script>
+            <header>  
+                <nav class="mobile-menu">
+                    <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+                    <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+                    <div class="mobile-menu__container">
+                    <ul class="mobile-menu__list">
+                        <li class="mobile-menu__item"><a href="../index.html" class="mobile-menu__link">Home</a></li>
+                        <li class="mobile-menu__item"><a href="eye.html" class="mobile-menu__link">Ident eye</a></li>
+                        <li class="mobile-menu__item"><a href="face.html" class="mobile-menu__link">Ident face</a></li>
+                        <li class="mobile-menu__item"><a href="finger.html" class="mobile-menu__link">Ident finger</a></li>
+                    </ul>
+                    </div>
+                </nav>
+            </header>
+            <div class="wrapper" style="background-image: url('../photos/1579335677_1-3.jpg');">
+                <div class="progface">
+                    <form id="upload-container" method="POST" action="send.php">
+                        <img id="upload-image" src="../photos/load.png">
+                        <div>
+                             <input id="file-input" type="file" name="file" multiple>
+                             <label for="file-input">Выберите файл</label>
+                             <span>или перетащите его сюда</span>
+                </div>
+            </div>
+            <footer>
+    
+            </footer>
+        </body>
+</html>
